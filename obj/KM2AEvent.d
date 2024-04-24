@@ -1,0 +1,47 @@
+../obj/KM2AEvent.o ../obj/KM2AEvent.d : ../Root/KM2AEvent.cxx \
+ /home/zhangdf/Public/root/include/TMath.h \
+ /home/zhangdf/Public/root/include/Rtypes.h \
+ /home/zhangdf/Public/root/include/RConfig.h \
+ /home/zhangdf/Public/root/include/RVersion.h \
+ /home/zhangdf/Public/root/include/DllImport.h \
+ /home/zhangdf/Public/root/include/Rtypeinfo.h \
+ /home/zhangdf/Public/root/include/snprintf.h \
+ /home/zhangdf/Public/root/include/strlcpy.h \
+ /home/zhangdf/Public/root/include/TGenericClassInfo.h \
+ /home/zhangdf/Public/root/include/TSchemaHelper.h \
+ /home/zhangdf/Public/root/include/TMathBase.h \
+ /home/zhangdf/Public/root/include/TError.h \
+ /home/zhangdf/Public/root/include/TMatrixD.h \
+ /home/zhangdf/Public/root/include/TMatrixT.h \
+ /home/zhangdf/Public/root/include/TMatrixTBase.h \
+ /home/zhangdf/Public/root/include/TNamed.h \
+ /home/zhangdf/Public/root/include/TObject.h \
+ /home/zhangdf/Public/root/include/TStorage.h \
+ /home/zhangdf/Public/root/include/TVersionCheck.h \
+ /home/zhangdf/Public/root/include/Riosfwd.h \
+ /home/zhangdf/Public/root/include/TBuffer.h \
+ /home/zhangdf/Public/root/include/TString.h \
+ /home/zhangdf/Public/root/include/TMatrixFBasefwd.h \
+ /home/zhangdf/Public/root/include/TMatrixDBasefwd.h \
+ /home/zhangdf/Public/root/include/TVectorFfwd.h \
+ /home/zhangdf/Public/root/include/TVectorDfwd.h \
+ /home/zhangdf/Public/root/include/TMatrixTUtils.h \
+ /home/zhangdf/Public/root/include/TMatrixDfwd.h \
+ /home/zhangdf/Public/root/include/TMatrixDUtils.h \
+ /home/zhangdf/Public/root/include/TMatrixDUtilsfwd.h \
+ /home/zhangdf/Public/root/include/TVectorD.h \
+ /home/zhangdf/Public/root/include/TVectorT.h \
+ /home/zhangdf/Public/root/include/TMatrixTSym.h \
+ /home/zhangdf/Public/root/include/TMatrixTSparse.h \
+ /home/zhangdf/Public/root/include/TMatrixDSym.h \
+ /home/zhangdf/Public/root/include/TMatrixDSymfwd.h \
+ /home/zhangdf/Public/root/include/TMatrixDSparse.h \
+ /home/zhangdf/Public/root/include/TMatrixDSparsefwd.h \
+ /home/zhangdf/Public/root/include/TDecompSVD.h \
+ /home/zhangdf/Public/root/include/TDecompBase.h \
+ ../ProcessCORARS/KM2AEvent.h /home/zhangdf/Public/root/include/TObject.h \
+ /home/zhangdf/Public/root/include/TClonesArray.h \
+ /home/zhangdf/Public/root/include/TObjArray.h \
+ /home/zhangdf/Public/root/include/TSeqCollection.h \
+ /home/zhangdf/Public/root/include/TCollection.h \
+ /home/zhangdf/Public/root/include/TIterator.h

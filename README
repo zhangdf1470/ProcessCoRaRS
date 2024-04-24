@@ -1,0 +1,34 @@
+check the trigger rate of tge detector:
+fit the distribution of Event.dt, the slope is the rate.
+
+-----------------Setup enviroment---------------------
+1. tar -zxvf Rootcore.tar.gz
+2. navigate to Rootcore/
+3. ./configure
+4. get out of Rootcore/: cd ../Rootcore/
+5. setup enviroment: . Rootcore/script/setup.sh
+6. compile the package: ./Rootcore/script/build.sh
+
+
+The process of analysing ED consists of nine stages:
+Stage 1: Select the branches we will use (Read configuration file: ./Config/rawdata);
+
+Stage 2: Calculate hitting point on TGC and Scintillation ;
+Stage 3: Get pedestal deift (export file: ./Config/pedestaldrift);
+
+Stage 4: Get the calibration of scintillators (Read configuration file: ./Config/simutimeconfig);
+Stage 5: Simulate the relationship between calibration and distance from hit point to PMT by a poly5 function;
+Stage 6: Get the new calibretion using the results from Stage 3&4 ;
+
+Stage 7: Calculate all the variables that we will use in next stages and name them by the characterics we can understand ;
+Stage 8: Correct the time difference between measured time and reconstructed time ;
+Stage 9: Fill histograms and get the results by fitting or other methods, finallu output PDF files ;
+
+How to run the program:
+1: . setting.sh # setup root and export some global varibales
+  setup root and RootCore enviroment
+  alias compilepackages to "./RootCore/script/build.sh" #compile packages in working directory
+2: compilepackages
+3: make clean
+4: make
+5: ./main.exe // it will ask which stage you want to run

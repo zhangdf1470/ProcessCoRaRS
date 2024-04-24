@@ -1,0 +1,66 @@
+#position of up trigger SCTs :(xmin, xmax) (ymin, ymax) in cm
+#From left to in order:
+# 0: (0.2, 25.2) (0, 120)
+#TSCT0X: 0.2
+#TSCT0Y: 0.
+# 1: (28, 53) (0, 120)
+#TSCT1X: 28
+#TSCT1Y: 0.
+# 2: (55.9, 80.9) (4, 124)
+#TSCT2X: 55.9
+#TSCT2Y: 4.
+# 3: (86, 111) (0, 120)
+#TSCT3X: 86.
+#TSCT3Y: 0.
+# 4: (114.2, 139.2) (0, 120)
+#TSCT4X: 114.2
+#TSCT4Y: 0.
+# 5: (142, 167) (0, 120)
+#TSCT5X: 142.
+#TSCT5Y: 0.
+# position of down trigger SCTs:(xmin, xmax) (ymin, ymax)
+# 6: (0.2, 25.2) (5, 125)
+#TSCT6X: 0.2
+#TSCT6Y: 5.
+# 7: (28, 53) (5, 125)
+#TSCT7X: 28.
+#TSCT7Y: 5.
+# 8: (55.9, 80.9) (5, 125)
+#TSCT8X: 55.9
+#TSCT8Y: 5.
+# 9: (84.4, 109.4) (3, 123)
+#TSCT9X: 84.4
+#TSCT9Y: 3.
+# 10: (112.8, 137.8) (2, 122)
+#TSCT10X: 112.8
+#TSCT10Y: 2.
+# 11: (140.2, 165.2) (2, 122)
+#TSCT11X: 140.2
+#TSCT11Y: 2.
+
+# Before 20171110
+TSCT0X: -14.5
+TSCT0Y: 1.
+TSCT1X: 12.25
+TSCT1Y: 1.
+TSCT2X: 41.75
+TSCT2Y: 1.
+TSCT3X: 90.5
+TSCT3Y: 1.
+TSCT4X: 119.
+TSCT4Y: 1.
+TSCT5X: 144.75
+TSCT5Y: 0.
+
+TSCT6X: -13.45
+TSCT6Y: 5.
+TSCT7X: 13.2
+TSCT7Y: 5.
+TSCT8X: 42.35
+TSCT8Y: 7.
+TSCT9X: 91.5
+TSCT9Y: 5.
+TSCT10X: 120.
+TSCT10Y: 3.
+TSCT11X: 145.75
+TSCT11Y: 3.
